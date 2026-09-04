@@ -23,6 +23,12 @@ Planned next phases:
 - **Phase 3**: automatically create the lead and enroll them in the
   right sequence in Amplemarket via its API — no manual step at all.
 
+See [MCP_CONNECTIONS.md](MCP_CONNECTIONS.md) for how the data sources
+behind Phase 2/3 (Salesforce, Salesfinity, Fathom, Amplemarket,
+OpenFunnel) are planned to connect via MCP so signals and
+personalization context can be looked up in one place instead of typed
+into a CSV by hand.
+
 ## Requirements
 
 Python 3.8 or newer. No external libraries needed — everything used is
